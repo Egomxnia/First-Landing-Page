@@ -52,7 +52,7 @@ a {
     padding: 0 100px;
     align-items: center;
     justify-content: center;
-    margin-bottom: 60px;
+    margin-bottom: 3rem;
 }
 
 .subheader {
@@ -128,3 +128,30 @@ img {
 /* Quote Section */
 /*               */
 
+.quoteBlock {
+    background-color: #E5E7EB;
+    text-align: center;
+    padding: 3rem;
+}
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    margin: 3rem 200px;
+    flex-wrap: wrap;
+
+}
+
+.thor {
+    font-weight: bolder;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 200px;
+}
+
+/*                */
+/* Action Section */
+/*                */

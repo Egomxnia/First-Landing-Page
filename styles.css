@@ -32,12 +32,12 @@ ul {
     font-size: 24px;
 }
 
-.logo, .subheader, button {
+.logo, .subheader, button, .callTitle {
     color: #F9FAF8;
     font-weight: 900;
 }
 
-a, .subtext {
+a, .subtext, .callSub {
     color: #E5E7EB;
 }
 
@@ -155,3 +155,44 @@ img {
 /*                */
 /* Action Section */
 /*                */
+
+.callBlock {
+    background-color:#3882F6;
+    margin: 80px 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 3rem;
+
+}
+
+.signup {
+    display: flex;
+    padding: 0 8rem;
+    
+}
+
+.actionButton {
+    border: 2px solid white;
+}
+
+/*                */
+/* Footer Section */
+/*                */
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color:#E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
